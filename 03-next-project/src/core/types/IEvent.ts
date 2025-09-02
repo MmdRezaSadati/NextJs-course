@@ -4,6 +4,7 @@ export interface IEvent {
   description: string;
   price: number;
   cover: string;
+  imageAddress: string;
   category: string;
   capacity: number;
   id: string;
