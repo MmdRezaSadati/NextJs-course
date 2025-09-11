@@ -1,12 +1,13 @@
 import Container from "@/components/container/Container";
 import { getUsers } from "@/core/api/users";
+import { inter } from "../layout";
 
 const UsersPage = async () => {
   const users = await getUsers();
   console.log("users", users);
   return (
     <Container>
-      <h1>Our users</h1>
+      <h1 className={inter.className}>Our users</h1>
       <ul className="flex flex-wrap gap-2">
         {users.map((value) => (
           <div className="p-10 text-center bg-blue-950" key={value.email}>
