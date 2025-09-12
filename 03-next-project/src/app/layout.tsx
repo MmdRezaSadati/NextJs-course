@@ -23,10 +23,6 @@ const merri = localFont({
       path: "../assets/fonts/Merriweather-Regular.woff2",
       weight: "500",
     },
-    {
-      path: "../assets/fonts/Merriweather-bold.woff2",
-      weight: "700",
-    },
   ],
 });
 
